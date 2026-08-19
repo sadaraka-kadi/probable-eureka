@@ -535,8 +535,8 @@ See [`requirements.txt`](requirements.txt) for the full list. Key libraries:
 ---
 ## Acknowledgements / Technical recommendations
 
-Dr. Daniel Wamriew
-Elias Drescher
+- Dr. Daniel Wamriew
+- Elias Drescher
 
 ## AI Assistance Disclosure
 
