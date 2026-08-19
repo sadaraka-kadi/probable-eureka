@@ -1,10 +1,11 @@
 # probable-eureka
 **Geothermal Energy Assessment & Site Screening — Utrecht, Netherlands**
 
-An independent refinement and extension of Team KDK's submission for the SPE Africa Datathon 2026. The project evaluates geothermal potential in Utrecht using subsurface data, reservoir characteristics, well information, and multi-criteria site screening.
+This repository contains Kadi Sadaraka's independent refinement and further development of Team KDK's submission for the SPE Africa Datathon 2026, analysing geothermal energy data from Utrecht, Netherlands.
+
+The work builds upon the team's original submission while extending and refining selected aspects of the analysis, modelling, and interpretation.
 
 Original team submission: Team KDK
-Independent refinement: Kadi Sadaraka
 
 ---
 
@@ -532,6 +533,10 @@ See [`requirements.txt`](requirements.txt) for the full list. Key libraries:
 | `shapely` | Geometric operations |
 
 ---
+## Acknowledgements / Technical recommendations
+
+Dr. Daniel Wamriew
+Elias Drescher
 
 ## AI Assistance Disclosure
 
