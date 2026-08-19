@@ -1,7 +1,10 @@
 # probable-eureka
-**This is Kadi Sadaraka's refinement of Team KDK's submission for the SPE Africa Datathon 2026, analysing geothermal energy data from Utrecht, Netherlands.**
+**Geothermal Energy Assessment & Site Screening — Utrecht, Netherlands**
 
-This work references and builds on the original submission: https://github.com/sadaraka-kadi/Team_KDK
+An independent refinement and extension of Team KDK's submission for the SPE Africa Datathon 2026. The project evaluates geothermal potential in Utrecht using subsurface data, reservoir characteristics, well information, and multi-criteria site screening.
+
+Original team submission: Team KDK
+Independent refinement: Kadi Sadaraka
 
 ---
 
