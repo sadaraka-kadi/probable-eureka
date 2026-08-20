@@ -81,6 +81,7 @@ notebooks/a01_well_data_preprocessing.ipynb
 notebooks/a02_utrecht_boundary_extraction.ipynb
 notebooks/a03_utrecht_formation_coverage.ipynb
 notebooks/a04_slochteren_aquifer_simulation.ipynb
+notebooks/ai_dashboard.ipynb
 
 # IPython
 profile_default/
