@@ -37,30 +37,12 @@ Team_KDK_Code_V1/
 │   └── processed/                   # Cleaned and transformed data
 │
 ├── notebooks/
-│   ├── 01_well_data_preprocessing.ipynb
-│   ├── 02_utrecht_boundary_extraction.ipynb
-│   ├── 03_utrecht_formation_coverage.ipynb
-│   └── 04_slochteren_aquifer_simulation.ipynb
-│
+│   ├── 01_data_exploration.ipynb
+│  
 ├── outputs/
-│   ├── baseline_results.nc          # Baseline — full spatial grid
-│   ├── baseline_viable.csv          # Baseline — viable doublet locations
-│   ├── hp_results.nc                # Heat Pump — full spatial grid
-│   ├── hp_viable.csv                # Heat Pump — viable doublet locations
-│   ├── stim_results.nc              # Stimulation — full spatial grid
-│   ├── stim_viable.csv              # Stimulation — viable doublet locations
-│   ├── stim_hp_results.nc           # STIM+HP — full spatial grid
-│   ├── stim_hp_viable.csv           # STIM+HP — viable doublet locations
-│   ├── nearby_stim_hp.csv           # STIM+HP — viable locations near Utrecht city
-│   └── power_and_npv_map.png        # STIM+HP — top 3 locations map
 │
 ├── reports/
-│   ├── Team_KDK_LCOE.xlsx             # LCOE spreadsheet
-|   ├── lcoe_parameters.md             # LCOE parameter justifications
-|   ├── nearby_stim_hp.csv             # STIM+HP — viable locations near Utrecht city
-|   ├── power_and_npv_map.png          # STIM+HP — top 3 locations map
-|   ├── stim_hp_viable.csv             # STIM+HP — viable doublet locations
-│   └── surface_facilities.md          # Surface facilities for Utrecht
+│  
 │
 ├── .gitignore
 ├── LICENSE
