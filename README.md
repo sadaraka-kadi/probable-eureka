@@ -5,8 +5,8 @@ This repository contains Kadi Sadaraka's independent refinement and further deve
 
 The work builds upon the team's original submission while extending and refining selected aspects of the analysis, modelling, and interpretation.
 
-Original team submission: Team KDK
-https://github.com/sadaraka-kadi/Team_KDK
+Original team submission: Team KDK https://github.com/sadaraka-kadi/Team_KDK
+
 ---
 
 ## Project Overview
