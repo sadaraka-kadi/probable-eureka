@@ -29,30 +29,7 @@ economically.
 
 ## Repository Structure
 
-```
-Team_KDK_Code_V1/
-│
-├── data/
-│   ├── raw/                         # Original, unmodified input data (see data/raw/README.md)
-│   └── processed/                   # Cleaned and transformed data
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│  
-├── outputs/
-│
-├── reports/
-│  
-│
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
-```
 
----
-
-## Data
 
 > ⚠️ Some raw data files are too large to include in this repo. See [`data/raw/README.md`](data/raw/README.md).
 
@@ -147,8 +124,8 @@ Run notebooks in order:
 
 | # | Notebook | Description |
 |---|---|---|
-| 1 | `01_data_exploration.ipynb` | Loads LAS files, imputes missing well log values, prepares final dataset |
-
+| 1 | `01_data_exploration.ipynb` | Loads LAS files, imputes missing well log values, prepares final dataset ||
+|
 ---
 
 ## Setup & Usage
