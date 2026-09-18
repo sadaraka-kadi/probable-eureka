@@ -75,15 +75,14 @@ def well_cost_mln(depth_m, well_cost_scaling=1.0):
     """
     return well_cost_scaling * (375_000 + 1150 * depth_m + 0.3 * depth_m ** 2) * 1e-6
 
-def subsurface_capex_mln(depth_m, n_wells,
+def subsurface_capex_mln(depth_m, n_wells, well_cost_scaling=1.0,
                           stim_cost_per_well_mln=0.0,
                           pump_investment_mln=0.3, n_pumps=None):
-    """Total subsurface capex, mln euro."""
+    """Total subsurface capex, mln euro"""
     if n_pumps is None:
         n_pumps = n_wells
-    wc = well_cost_mln(depth_m)
+    wc = well_cost_mln(depth_m, well_cost_scaling)
     return (stim_cost_per_well_mln + wc) * n_wells + pump_investment_mln * n_pumps
-
 
 def heat_surface_capex_mln(heat_mwth, capex_rate_kEuro_per_mwth=150):
     """Surface heat-plant capex, mln euro. Sheet row 43."""
